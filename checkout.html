@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>О компании</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230319092027">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a class="header__logo _icon-dress" href="#">Womazing</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index.html" class="menu__link _active">Главная</a>
+								</li>
+								<li class="menu__item">
+									<a href="shop.html" class="menu__link undefined">Магазин</a>
+								</li>
+								<li class="menu__item">
+									<a href="about.html" class="menu__link undefined">О бренде</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact.html" class="menu__link undefined">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions actions-header">
+						<div class="actions-header__call">
+							<button data-popup="#callback" type="button" class="actions-header__phone _icon-phone"></button>
+							<a data-da=".menu__body, 479.98" class="actions-header__tel" href="tel:+74958235412">+7 (495) 823-54-12</a>
+						</div>
+						<a class="actions-header__cart _icon-cart" href="cart.html"></a>
+					</div>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__checkout checkout">
+				<div class="checkout__container">
+					<h2 class="checkout__title title">Оформление заказа</h2>
+					<div class="breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a class="breadcrumbs__link" href="shop.html">Главная</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a class="breadcrumbs__link" href="">Оформление заказа</a>
+							</li>
+						</ul>
+					</div>
+					<div class="checkout__body">
+						<form action="#" class="checkout__form">
+							<div class="checkout__left">
+								<div class="checkout__items">
+									<div class="checkout__name">Данные покупателя</div>
+									<div class="checkout__label">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="checkout__input">
+										<span class="checkout__line"></span>
+									</div>
+									<div class="checkout__label">
+										<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="E-mail" class="checkout__input">
+										<span class="checkout__line"></span>
+									</div>
+									<div class="checkout__label">
+										<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Телефон" class="checkout__input">
+										<span class="checkout__line"></span>
+									</div>
+								</div>
+								<div class="checkout__items">
+									<div class="checkout__name">Адрес получателя</div>
+									<div class="checkout__label">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Страна" class="checkout__input">
+										<span class="checkout__line"></span>
+									</div>
+									<div class="checkout__label">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Город" class="checkout__input">
+										<span class="checkout__line"></span>
+									</div>
+									<div class="checkout__label">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Улица" class="checkout__input">
+										<span class="checkout__line"></span>
+									</div>
+									<div class="checkout__label">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Дом" class="checkout__input">
+										<span class="checkout__line"></span>
+									</div>
+									<div class="checkout__label">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Квартира" class="checkout__input">
+										<span class="checkout__line"></span>
+									</div>
+								</div>
+								<div class="checkout__items">
+									<div class="checkout__name">Комментарии</div>
+									<div class="checkout__label">
+										<textarea autocomplete="off" name="form[]" placeholder="Страна" data-error="Ошибка" class="checkout__textarea"></textarea>
+										<span class="checkout__line"></span>
+									</div>
+								</div>
+							</div>
+							<div class="checkout__right">
+								<div class="checkout__column">
+									<div class="checkout__name">Ваш заказ</div>
+									<div class="checkout__item">
+										<div class="checkout__supname checkout__supname_title">Товар</div>
+										<div class="checkout__value checkout__value_title">Всего</div>
+									</div>
+									<div class="checkout__item">
+										<div class="checkout__supname">Футболка USA</div>
+										<div class="checkout__value">$129</div>
+									</div>
+									<div class="checkout__item">
+										<div class="checkout__supname">Подытог</div>
+										<div class="checkout__value">$129</div>
+									</div>
+									<div class="checkout__item checkout__item_total">
+										<div class="checkout__supname">Итого</div>
+										<div class="checkout__value">$129</div>
+									</div>
+								</div>
+								<div class="checkout__column">
+									<div class="checkout__name">Способы оплаты</div>
+									<div class="checkout__checkbox checkbox checkbox-checkout">
+										<input id="c_1" data-error="Ошибка" class="checkbox-checkout__input checkbox__input" type="checkbox" value="1" name="form[]">
+										<label for="c_1" class="checkbox-checkout__label checkbox__label"><span class="checkbox-checkout__text checkbox__text">Оплата наличными</span></label>
+									</div>
+									<button type="submit" class="checkout__button btn">Разместить заказ</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__main">
+						<a class="footer__logo _icon-dress" href="#">Womazing</a>
+						<div class="footer__column column-footer">
+							<ul class="column-footer__list">
+								<li class="column-footer__item">© Все права защищены</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Политика конфиденциальности</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Публичная оферта</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a class="menu-footer__title _active _icon-arrow-rigth" href="index.html">Главная</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__title undefined" href="shop.html">Магазин</a>
+								<ul class="menu-footer__sub-list">
+									<li class="menu-footer__sub-item">
+										<a class="menu-footer__sub-link" href="#">Пальто</a>
+									</li>
+									<li class="menu-footer__sub-item">
+										<a class="menu-footer__sub-link" href="#">Свитшоты</a>
+									</li>
+									<li class="menu-footer__sub-item">
+										<a class="menu-footer__sub-link" href="#">Кардиганы</a>
+									</li>
+									<li class="menu-footer__sub-item">
+										<a class="menu-footer__sub-link" href="#">Толстовки</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__title undefined" href="about.html">О бренде</a>
+							</li>
+							<li class="menu-footer__item">
+								<a class="menu-footer__title undefined" href="contact.html">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__actions actions-footer">
+						<div class="actions-footer__item">
+							<a class="actions-footer__tel" href="tel:+74958235412">+7 (495) 823-54-12</a>
+						</div>
+						<div class="actions-footer__item">
+							<a class="actions-footer__mail" href="mailto:hello@womazing.com">hello@womazing.com</a>
+						</div>
+						<div class="actions-footer__item">
+							<a class="actions-footer__icon _icon-instagram" href="#"></a>
+							<a class="actions-footer__icon _icon-facebook" href="#"></a>
+							<a class="actions-footer__icon _icon-twitter" href="#"></a>
+						</div>
+						<div class="actions-footer__item">
+							<a class="actions-footer__pay" href="">
+								<picture><source srcset="img/pay.webp" type="image/webp"><img src="img/pay.png" alt=""></picture>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__body">
+					<form action="#" class="form-popup">
+						<h4 class="form-popup__title">Заказать обратный звонок</h4>
+						<div class="form-popup__label">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="form-popup__input">
+							<span class="form-popup__line"></span>
+						</div>
+						<div class="form-popup__label">
+							<input data-required="email" autocomplete="off" type="text" name="form[]" data-error="Введите E-mail" placeholder="Email" class="form-popup__input">
+							<span class="form-popup__line"></span>
+						</div>
+						<div class="form-popup__label">
+							<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Телефон" class="form-popup__input">
+							<span class="form-popup__line"></span>
+						</div>
+						<button type="submit" class="form-popup__button btn">Заказать звонок</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230319092027"></script>
+</body>
+
+</html>
